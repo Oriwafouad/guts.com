@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guts</title>
+    <link rel="Website Icon" type="png" href="https://cdn3.emoji.gg/emojis/6160-guts-rage1.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+<body>
+<header class="site-header">
+    <div class="site-logo">
+        <a href="index.html"><img src="https://cdn3.emoji.gg/emojis/6160-guts-rage1.png" alt="logo"></a>
+
+    </div>
+    <div class="site-info">
+        <h1>
+            Guts
+        </h1>
+        <p class="tagline">
+            Watch Anime For Free
+        </p>
+    </div>
+    <div class="site-search">
+        <form action="/search" method="get" >
+           <input type="text" name="q" placeholder="Search...">
+           <button class="submit">search</button> 
+        </form>
+    </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="2023.html">2023</a></li>
+                <li><a href="anime-list.html">Anime List</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="game.html">Games</a></li>
+            </ul>
+        </nav>
+
+    </div>
+</header>
+<br>
+<div class="carousel-container">
+    <div class="carousel-slide">
+      <a href=""><img src="https://w0.peakpx.com/wallpaper/928/619/HD-wallpaper-in-the-rain-sad-full-metal-alchemist-rain-edward-elric.jpg" alt="Image 1"></a>
+    </div>
+    <div class="carousel-slide">
+      <a href=""><img src="https://images.alphacoders.com/131/1315631.png" alt="Image 2"></a>
+    </div>
+    <div class="carousel-slide">
+      <a href=""><img src="https://c4.wallpaperflare.com/wallpaper/300/277/258/anime-anime-boys-dr-stone-senkuu-ishigami-hd-wallpaper-preview.jpg" alt="Image 3"></a>
+    </div>
+    <div class="carousel-slide">
+      <a href=""><img src="https://images2.alphacoders.com/516/516664.jpg" alt="Image 3"></a>
+      </div>
+      <div class="carousel-slide">
+        <a href=""><img src="https://wallpaperaccess.com/full/2500093.jpg" alt="Image 3"></a>
+      </div>
+    <a class="carousel-prev" onclick="prevSlide()">&circlearrowleft;</a>
+    <a class="carousel-next" onclick="nextSlide()">&circlearrowright;</a>
+    <div class="carousel-indicators" role="tablist" aria-label="Slide Indicators"></div>
+  </div>
+  <br>
+  <div id="menu" class="menu-button">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+<nav class="navbar">
+    <ul class="nav-list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    <h1 class="navbar-title">Alternate Menu</h1>
+    <ul class="nav-list-alt">
+        <li><a href="#">Option 1</a></li>
+        <li><a href="#">Option 2</a></li>
+        <li><a href="#" id="reload-button">Reload page</li>
+        <li><a href="Mood.html">Mood</a></li>
+        <li><a href="#" id="colorButton">Change backgroundColor</a></li>
+    </ul>
+</nav>
+
+<div class="containers">
+    <h3 class="styled-heading">New Anime</h3>
+</div>
+
+<div class="card-container">
+    <div class="card">
+      <a href="anime1.html" class="card-link">
+        <img src="https://m.media-amazon.com/images/M/MV5BODcwNWE3OTMtMDc3MS00NDFjLWE1OTAtNDU3NjgxODMxY2UyXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_FMjpg_UX1000_.jpg" alt="Anime 1">
+        <button class="overlay-button">TV</button>
+        <div class="card-content">
+          <h3 class="card-title">Anime Title 1</h3>
+        </div>
+      </a>
+    </div>
+
+    <div class="card">
+        <a href="anime1.html" class="card-link">
+          <img src="https://m.media-amazon.com/images/M/MV5BODcwNWE3OTMtMDc3MS00NDFjLWE1OTAtNDU3NjgxODMxY2UyXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_FMjpg_UX1000_.jpg" alt="Anime 1">
+          <button class="overlay-button">TV</button>
+          <div class="card-content">
+            <h3 class="card-title">Anime Title 1</h3>
+          </div>
+        </a>
+      </div>
+
+      <div class="card">
+          <a href="anime1.html" class="card-link">
+            <img src="https://m.media-amazon.com/images/M/MV5BODcwNWE3OTMtMDc3MS00NDFjLWE1OTAtNDU3NjgxODMxY2UyXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_FMjpg_UX1000_.jpg" alt="Anime 1">
+            <button class="overlay-button">TV</button>
+            <div class="card-content">
+              <h3 class="card-title">Anime Title 1</h3>
+            </div>
+          </a>
+        </div>
+    
+            <div class="card">
+              <a href="anime1.html" class="card-link">
+                <img src="https://m.media-amazon.com/images/M/MV5BODcwNWE3OTMtMDc3MS00NDFjLWE1OTAtNDU3NjgxODMxY2UyXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_FMjpg_UX1000_.jpg" alt="Anime 1">
+                <button class="overlay-button">TV</button>
+                <div class="card-content">
+                  <h3 class="card-title">Anime Title 1</h3>
+                </div>
+              </a>
+            </div>
+
+            <div class="card">
+              <a href="anime1.html" class="card-link">
+                <img src="https://m.media-amazon.com/images/M/MV5BODcwNWE3OTMtMDc3MS00NDFjLWE1OTAtNDU3NjgxODMxY2UyXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_FMjpg_UX1000_.jpg" alt="Anime 1">
+                <button class="overlay-button">TV</button>
+                <div class="card-content">
+                  <h3 class="card-title">Anime Title 1</h3>
+                </div>
+              </a>
+            </div>      
+</div>
+
+    <br>
+  <section id="image-category">
+      <div class="containers">
+        <h3 class="styled-heading">Studios</h3>
+      </div>
+     <div class="image-gallery">
+          <div class="thumbnails">
+                <a href="wit-studio.html"><img src="https://res.cloudinary.com/teepublic/image/private/s--OFtDf4NY--/t_Resized%20Artwork/c_fit,g_north_west,h_1054,w_1054/co_ffffff,e_outline:38/co_ffffff,e_outline:inner_fill:38/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_auto:good:420,w_630/v1618866458/production/designs/21225033_0.jpg" alt="wit-studio"></a>
+                <a href="mappa.html"><img src="https://media.licdn.com/dms/image/C4E0BAQEzoWlGQOk4tw/company-logo_200_200/0/1519907694884?e=2147483647&v=beta&t=uTEOrKeNX1PjQUAcq7LyjAZUTKB69IYfu6Vn2rqLuSk" alt="mappa"></a>
+                <a href="ufotable.html"><img src="https://cdn.myanimelist.net/images/about_me/ranking_items/6157294-da983140-a655-4ffb-a00f-a098bb6dad5d.png?t=1667829123" alt="ufotable"></a>
+                <a href="mad-house.html"><img src="https://pm1.aminoapps.com/7109/a05e6a380b6acfd7d13edc1853366e11a37a37d8r1-1274-1707v2_00.jpg" alt="mad-house"></a>
+                <a href="toei-animation.html"><img src="https://corp.toei-anim.co.jp/en/index/mv-movie/main/00/teaserItems2/0/binaryNodeName/SP_TOP_03.png" alt="toei-animation"></a>
+                <a href="J.C.staff.html"><img src="https://w7.pngwing.com/pngs/144/683/png-transparent-j-c-staff-shaft-anime-television-show-animation-studio-staff-television-studio-text.png" alt="J.C.staff"></a>
+          </div>
+     </div>
+      
+  </section>
+  <div class="containers">
+    <h3 class="styled-heading">New Ep</h3>
+  </div>
+  <div class="category-containers">
+<div class="category-card">
+<a href=""><img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/1ecde018e863e2aaee31f00a23378c35.jpe" alt="Category 1 Image"></a>
+  <h2>One Piece</h2>
+  <p>Ep: 1080</p>
+</div>
+
+<div class="category-card">
+  <a href=""><img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/1ecde018e863e2aaee31f00a23378c35.jpe" alt="Category 1 Image"></a>
+  <h2>One Piece</h2>
+  <p>Ep: 1080</p>
+</div>
+
+<div class="category-card">
+  <a href=""><img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/1ecde018e863e2aaee31f00a23378c35.jpe" alt="Category 2 Image"></a>
+  <h2>One Piece</h2>
+  <p>Ep: 1080</p>
+</div>
+
+<div class="category-card">
+  <a href=""><img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/1ecde018e863e2aaee31f00a23378c35.jpe" alt="Category 3 Image"></a>
+  <h2>One Piece</h2>
+  <p>Ep: 1080</p>
+</div>
+<div class="category-card">
+  <a href=""><img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/1ecde018e863e2aaee31f00a23378c35.jpe" alt="Category 1 Image"></a>
+  <h2>One Piece</h2>
+  <p>Ep: 1080</p>
+</div>
+
+<div class="category-card">
+  <a href=""><img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/1ecde018e863e2aaee31f00a23378c35.jpe" alt="Category 1 Image"></a>
+  <h2>One Piece</h2>
+  <p>Ep: 1080</p>
+</div>
+
+<div class="category-card">
+  <a href=""><img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/1ecde018e863e2aaee31f00a23378c35.jpe" alt="Category 2 Image"></a>
+  <h2>One Piece</h2>
+  <p>Ep: 1080</p>
+</div>
+
+<div class="category-card">
+  <a href=""><img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/1ecde018e863e2aaee31f00a23378c35.jpe" alt="Category 3 Image"></a>
+  <h2>One Piece</h2>
+  <p>Ep: 1080</p>
+</div>
+
+<div class="category-card">
+  <a href=""><img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/1ecde018e863e2aaee31f00a23378c35.jpe" alt="Category 3 Image"></a>
+  <h2>One Piece</h2>
+  <p>Ep: 1080</p>
+</div>
+
+
+   </div>
+   <div class="containers">
+    <h3 class="styled-heading">For You</h3>
+  </div>
+
+
+   <div class="carousel-containers">
+    <div class="custom-carousel">
+      <div class="custom-carousel-card">
+        <div class="image-container">
+          <a href=""><img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/1ecde018e863e2aaee31f00a23378c35.jpe" alt="Image 1"></a>
+          <h2>One piece</h2>
+        </div>
+     
+      </div>
+      <div class="custom-carousel-card">
+        <div class="image-container">
+          <a href=""><img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/1ecde018e863e2aaee31f00a23378c35.jpe" alt="Image 2"></a>
+          <h2>One piece</h2>
+        </div>
+     
+      </div>
+      <div class="custom-carousel-card">
+        <div class="image-container">
+          <a href=""><img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/1ecde018e863e2aaee31f00a23378c35.jpe" alt="Image 3"></a>
+          <h2>One piece</h2>
+        </div>
+
+      </div>
+      <div class="custom-carousel-card">
+        <div class="image-container">
+          <a href=""><img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/1ecde018e863e2aaee31f00a23378c35.jpe" alt="Image 1"></a>
+          <h2>One piece</h2>
+        </div>
+        
+      </div>
+      <div class="custom-carousel-card">
+        <div class="image-container">
+          <a href=""><img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/1ecde018e863e2aaee31f00a23378c35.jpe" alt="Image 2"></a>
+          <h2>One piece</h2>
+        </div>
+       
+      </div>
+      <div class="custom-carousel-card">
+        <div class="image-container">
+          <a href=""><img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/1ecde018e863e2aaee31f00a23378c35.jpe" alt="Image 3"></a>
+          <h2>One piece</h2>
+        </div>
+        
+      </div>
+      <div class="custom-carousel-card">
+        <div class="image-container">
+          <a href=""><img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/1ecde018e863e2aaee31f00a23378c35.jpe" alt="Image 1"></a>
+          <h2>One piece</h2>
+        </div>
+       
+      </div>
+      <div class="custom-carousel-card">
+        <div class="image-container">
+          <a href=""><img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/1ecde018e863e2aaee31f00a23378c35.jpe" alt="Image 2"></a>
+          <h2>One piece</h2>
+        </div>
+       
+      </div>
+      <div class="custom-carousel-card">
+        <div class="image-container">
+          <a href=""><img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/1ecde018e863e2aaee31f00a23378c35.jpe" alt="Image 3"></a>
+          <h2>One piece</h2>
+        </div>
+       
+      </div>
+      <div class="custom-carousel-card">
+        <div class="image-container">
+          <a href=""><img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/1ecde018e863e2aaee31f00a23378c35.jpe" alt="Image 1"></a>
+          <h2>One piece</h2>
+        </div>
+        
+      </div>
+      <div class="custom-carousel-card">
+        <div class="image-container">
+          <a href=""><img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/1ecde018e863e2aaee31f00a23378c35.jpe" alt="Image 2"></a>
+          <h2>One piece</h2>
+        </div>
+       
+      </div>
+      <div class="custom-carousel-card">
+        <div class="image-container">
+          <a href=""><img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/1ecde018e863e2aaee31f00a23378c35.jpe" alt="Image 3"></a>
+          <h2>One piece</h2>
+        </div>
+      </div>
+      <div class="custom-carousel-card">
+        <div class="image-container">
+          <a href=""><img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/1ecde018e863e2aaee31f00a23378c35.jpe" alt="Image 3"></a>
+          <h2>One piece</h2>
+        </div>
+      </div>
+      <div class="custom-carousel-card">
+        <div class="image-container">
+          <a href=""><img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/1ecde018e863e2aaee31f00a23378c35.jpe" alt="Image 3"></a>
+          <h2>One piece</h2>
+        </div>
+      </div>
+
+    </div>
+    <button class="custom-prev-button"><i class="fa-solid fa-arrow-left-long"></i></button>
+    <button class="custom-next-button"><i class="fa-solid fa-arrow-right"></i></button>
+  </div>
+
+        <br><br>
+
+  <footer>
+    <div class="footer-content">
+        <div class="footer-logo">
+            <img src="https://cdn3.emoji.gg/emojis/6160-guts-rage1.png" alt="Anime Streaming Logo">
+            <p>Your Ultimate Anime Destination</p>
+        </div>
+        <div class="footer-links">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Anime Catalog</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-social">
+            <h3>Follow Us</h3>
+            <ul>
+                <li><a href="#"><i class="fa-brands fa-instagram fa-3x" style="color: #ffffff;"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook fa-3x" style="color: #ffffff;"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter fa-3x" style="color: #ffffff;"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2023 Anime Streaming. All rights reserved.</p>
+        <div class="footer-bottom-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Use</a>
+        </div>
+    </div>
+</footer>  
+<script src="script.js"></script>
+
+</body>
+</html>
